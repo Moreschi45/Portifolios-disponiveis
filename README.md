@@ -12,7 +12,6 @@ Foi um processo que me proporcionou adquirir novas capacidades e ideias, além d
 Trabalhar com Java não é fácil, pois exige uma compreensão sólida da lógica por trás da construção do código. 
 Isso é algo que se constrói com o tempo, mas acredito que estou muito preparado para qualquer desafio. 
 <br><br>
-# Projeto-Backend: plataforma de serviços:
 # Projeto Backend – Plataforma de Serviços
 
 Este projeto foi desenvolvido em **Java + Quarkus**, com estrutura robusta para atender plataformas de prestação de serviços como **99freelas, Workana** e similares.
