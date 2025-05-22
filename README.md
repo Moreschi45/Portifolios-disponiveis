@@ -30,7 +30,7 @@ Este projeto foi desenvolvido em **Java + Quarkus**, com estrutura robusta para 
 
 ## 📷 Requisições no Postman – Exemplos (POST)
 
-### 🔐 POST /auth/registro/profissional  
+### 👤 POST /auth/registro/profissional  
 Cadastra um novo profissional com retorno do ObjectId  
 ![print](https://github.com/user-attachments/assets/07d7c64d-62fa-486a-9d6f-aa76b18313d5)
 
@@ -49,4 +49,36 @@ Realiza login do profissional via e-mail + senha (hash) + validação do ID
 ---
 
 Esses são apenas alguns exemplos da pasta **Auth**, demonstrando estrutura e respostas reais do sistema.
+
+---
+---
+
+## 📷 Requisições no Postman – Exemplos (POST) – Pasta `/service`
+
+### 🌱 POST /service/menu-selecao/{id}/agricultura  
+Essa rota representa um dos vários tipos de serviços disponíveis na plataforma.  
+Todos seguem a mesma lógica de resposta com `200 OK`.  
+![print](https://github.com/user-attachments/assets/c05cde1c-1d5e-4bef-b96f-9ac45747f651)
+
+---
+
+### 💬 POST /service/menu-conversa/{id}  
+Menu de conversa relacional com **ID pai**, contendo `idConversa`, e dentro de cada conversa, um `idMensagem`.  
+Essa estrutura permite **controle total de hierarquia e exibição** no front-end.  
+![print](https://github.com/user-attachments/assets/0ea71fdf-155d-4e16-87f4-ee1a197a20d3)
+
+---
+
+### 📢 POST /service/anuncio/anuncio-agricultura/{id}  
+Essa rota lida com a **criação de anúncios específicos por tipo de serviço**.  
+O cliente seleciona a categoria (ex: agricultura) e o sistema lida com as particularidades dessa seleção.  
+![print](https://github.com/user-attachments/assets/25e583f3-5f94-4e11-93fe-4c7c0005d169)
+
+---
+
+### 📝 POST /service/anuncio/definir/{id} *(exemplo genérico)*  
+Rota onde o cliente define o conteúdo do anúncio: título, descrição e tipo.  
+Essa estrutura facilita o controle futuro para que **profissionais possam se candidatar** ao serviço, criando listas de interesse por ID do anúncio.  
+![print](https://github.com/user-attachments/assets/b48f4e2f-f4e4-4d42-90b3-9c9fca2900bf)
+
 # Projetos-abertos
