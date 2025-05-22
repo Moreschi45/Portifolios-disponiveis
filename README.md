@@ -21,7 +21,7 @@ Estrutura para plataformas como 99freelas, Workana, etc.
 - Upload de imagem
 - Retrno de JWT
 ## 📷 Prints das Requisições POSTMAN
-###### Requisições POST
+### Requisições POST
 ### POST auth/cliente/login/68162f4053ccd2611fe5de02
 <br>Cadastro do profissional + ObjectID<br>
 ![image](https://github.com/user-attachments/assets/07d7c64d-62fa-486a-9d6f-aa76b18313d5)
