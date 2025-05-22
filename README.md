@@ -11,25 +11,43 @@ Isso é excelente, pois mostra a minha capacidade de aprender rapidamente e me a
 Foi um processo que me proporcionou adquirir novas capacidades e ideias, além de trazer melhorias. 
 Trabalhar com Java não é fácil, pois exige uma compreensão sólida da lógica por trás da construção do código. 
 Isso é algo que se constrói com o tempo, mas acredito que estou muito preparado para qualquer desafio. 
+<br><br>
 # Projeto-Backend: plataforma de serviços:
-Esse projeto, estive trabalhando algum tempo, ele foi escrito em JAVA + QUARKUS.
-Estrutura para plataformas como 99freelas, Workana, etc.
-## ✅ Funcionalidades:
-- Cadastro e login profissional é cliente.
-- Publicação de anúncios por parte do cliente.
-- Chat entre usuarios
-- Upload de imagem
-- Retrno de JWT
-## 📷 Prints das Requisições POSTMAN
-### Requisições POST
-###### POST auth/cliente/login/68162f4053ccd2611fe5de02 
-<br>Cadastro do profissional + ObjectID<br>
-![image](https://github.com/user-attachments/assets/07d7c64d-62fa-486a-9d6f-aa76b18313d5)
-###### POST /auth/registro/cliente
-<br>Cadastro do cliente + ObjectID<br>
-![image](https://github.com/user-attachments/assets/8ead3fd3-18d6-4be3-b698-287ad4cf6cf4)
-##### POST
-<br>Login com busca por email+ObjectID e a senha+hash<br>
-![image](https://github.com/user-attachments/assets/42b68fcc-7570-4a23-989e-3f9ad6521ed2)
+# Projeto Backend – Plataforma de Serviços
 
+Este projeto foi desenvolvido em **Java + Quarkus**, com estrutura robusta para atender plataformas de prestação de serviços como **99freelas, Workana** e similares.
+
+---
+
+## ✅ Funcionalidades
+
+- Cadastro e login de **cliente** e **profissional**
+- Publicação de **anúncios**
+- Sistema de **chat entre usuários**
+- Upload de **imagens**
+- Retorno de **JWT** para autenticação
+
+---
+
+## 📷 Requisições no Postman – Exemplos (POST)
+
+### 🔐 POST /auth/registro/profissional  
+Cadastra um novo profissional com retorno do ObjectId  
+![print](https://github.com/user-attachments/assets/07d7c64d-62fa-486a-9d6f-aa76b18313d5)
+
+### 👤 POST /auth/registro/cliente  
+Cadastra um novo cliente com retorno do ObjectId  
+![print](https://github.com/user-attachments/assets/8ead3fd3-18d6-4be3-b698-287ad4cf6cf4)
+
+### 🔓 POST /auth/login/cliente/{id}  
+Realiza login do cliente via e-mail + senha (hash) + validação do ID  
+![print](https://github.com/user-attachments/assets/42b68fcc-7570-4a23-989e-3f9ad6521ed2)
+
+### 🔓 POST /auth/login/profissional/{id}  
+Realiza login do profissional via e-mail + senha (hash) + validação do ID  
+![print](https://github.com/user-attachments/assets/0181be01-0782-4156-b072-ea2242942940)
+
+---
+
+Esses são apenas alguns exemplos da pasta **Auth**, demonstrando estrutura e respostas reais do sistema.
 # Projetos-abertos
