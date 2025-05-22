@@ -79,6 +79,7 @@ O cliente seleciona a categoria (ex: agricultura) e o sistema lida com as partic
 ### 📝 POST /service/anuncio/definir/{id} *(exemplo genérico)*  
 Rota onde o cliente define o conteúdo do anúncio: título, descrição e tipo.  
 Essa estrutura facilita o controle futuro para que **profissionais possam se candidatar** ao serviço, criando listas de interesse por ID do anúncio.  
-![print](https://github.com/user-attachments/assets/b48f4e2f-f4e4-4d42-90b3-9c9fca2900bf)
+![image](https://github.com/user-attachments/assets/225ee9ce-78ca-4c96-8135-d700c5b88387)
+
 
 # Projetos-abertos
