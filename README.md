@@ -15,6 +15,12 @@ Isso é algo que se constrói com o tempo, mas acredito que estou muito preparad
 Esse projeto, estive trabalhando algum tempo, ele foi escrito em JAVA + QUARKUS.
 Estrutura para plataformas como 99freelas, Workana, etc.
 ## ✅ Funcionalidades:
-
+- Cadastro e login profissional é cliente.
+- Publicação de anúncios por parte do cliente.
+- Chat entre usuarios
+- Upload de imagem
+- Retrno de JWT
+## 📷 Prints das Requisições POSTMAN
+![image](https://github.com/user-attachments/assets/07d7c64d-62fa-486a-9d6f-aa76b18313d5)
 
 # Projetos-abertos
