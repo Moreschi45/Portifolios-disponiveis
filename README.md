@@ -11,7 +11,10 @@ Isso é excelente, pois mostra a minha capacidade de aprender rapidamente e me a
 Foi um processo que me proporcionou adquirir novas capacidades e ideias, além de trazer melhorias. 
 Trabalhar com Java não é fácil, pois exige uma compreensão sólida da lógica por trás da construção do código. 
 Isso é algo que se constrói com o tempo, mas acredito que estou muito preparado para qualquer desafio. 
+# Projeto-Backend: plataforma de serviços:
+Esse projeto, estive trabalhando algum tempo, ele foi escrito em JAVA + QUARKUS.
+Estrutura para plataformas como 99freelas, Workana, etc.
+## ✅ Funcionalidades:
 
 
-
-# Projetos-abertos-
+# Projetos-abertos
