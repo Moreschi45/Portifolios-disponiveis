@@ -83,6 +83,16 @@ Upload da foto de perfil do cliente.
 Upload de imagens de portfólio do profissional.  
 ![image](https://github.com/user-attachments/assets/70798c6e-a851-4262-83d3-535b515f2cb1)
 
+## Requisições GETs Postman`
+
+## 👤 GET /service/busca/perfil-cliente/{id}`
+Essa rota faz a busca dos dados do cliente conforme o id,e devolvendo ao front.
+![image](https://github.com/user-attachments/assets/636963b1-6cd2-4d2f-85dd-bf5f0c1debec)
+
+## 👤 GET /service/busca/perfil-profissional/{id}`
+Essa rota faz a busca pelo profissional conforme o id, e devolve os dados ao front.
+![image](https://github.com/user-attachments/assets/d0ddaf20-6a96-4c00-ad04-096489218963)
+
 ---
 
 ## ⚙️ Arquitetura e Performance
