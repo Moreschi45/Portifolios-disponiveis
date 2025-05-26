@@ -59,7 +59,7 @@ Login do profissional com validação de e-mail, senha (hash) e ID.
 
 ### 🌱 POST `/service/menu-selecao/{id}/agricultura`  
 
-Cria um menu de seleção com base na categoria escolhida (ex: agricultura).  
+Cria um menu de seleção com base na categoria escolhida.  
 ![print](https://github.com/user-attachments/assets/c05cde1c-1d5e-4bef-b96f-9ac45747f651)
 
 ### 💬 POST `/service/menu-conversa/{id}`  
@@ -97,37 +97,30 @@ Faz upload das imagens de portfólio do profissional.
 
 ### 👤 GET `/service/busca/perfil-cliente/{id}`
 
-Busca os dados do cliente com base no `id`.  
 ![image](https://github.com/user-attachments/assets/636963b1-6cd2-4d2f-85dd-bf5f0c1debec)
 
 ### 👤 GET `/service/busca/perfil-profissional/{id}`
 
-Busca os dados do profissional com base no `id`.  
 ![image](https://github.com/user-attachments/assets/d0ddaf20-6a96-4c00-ad04-096489218963)
 
 ### 🌱 GET `/service/tipo-anuncio/agricultura/{id}`
 
-Retorna o tipo de serviço escolhido no momento do anúncio.  
 ![image](https://github.com/user-attachments/assets/9a587816-2485-432f-b0a9-f5a2529a27cf)
 
 ### 🧩 GET `/service/tipos-de-servicos/menu-agricultura/{id}`
 
-Busca o tipo de serviço selecionado no cadastro do profissional.  
 ![image](https://github.com/user-attachments/assets/e756c822-a4aa-488d-8f66-01136f41061e)
 
 ### 📢 GET `/service/anuncio/{id}`
 
-Lista os anúncios vinculados ao `id` do criador (cliente).  
 ![image](https://github.com/user-attachments/assets/0c74866d-70c3-46c6-8c0c-5c6b4e4e5e66)
 
 ### 🏠 GET `/service/perfil-profissional/endereco-profissional/{id}`
 
-Retorna o endereço cadastrado tanto para cliente quanto para profissional.  
 ![image](https://github.com/user-attachments/assets/8106294d-8dae-4d3a-a4a3-7289b2435b9e)
 
 ### 💬 GET `/service/conversa/{id}/{idConversa}`
 
-Busca pelo id do cliente ou profissional, e depois busca pelo id da conversa.  
 ![image](https://github.com/user-attachments/assets/2e25ee5c-9375-4246-8d5d-2efdd6e66d48)
 
 ---
@@ -136,89 +129,33 @@ Busca pelo id do cliente ou profissional, e depois busca pelo id da conversa.
 
 ### 🖼️ GET `/image/view/{id}/{idImagem}`
 
-Recupera a imagem salva no banco, utilizando `id` do dono e `idImagem`.  
 ![image](https://github.com/user-attachments/assets/e5b18c16-8ef2-40e2-8140-e1f634e057fa)
 
 ### 🧳 GET `/image/view/profissional/{id}/{idPortfolio}`
 
-Recupera o portfólio salvo do profissional por `id` e `idPortfolio`.  
 ![image](https://github.com/user-attachments/assets/19f09f65-0fe6-40db-8feb-a575203448b0)
 
 ---
 
-## 📋 Logs do Terminal – POST
+## 📋 Logs do Terminal – POST & GET
 
-Esses dados representam logs do backend, com foco em lógicas de validação e persistência.
+Esses dados representam logs reais do backend, com foco em lógicas de validação, estrutura e persistência.
 
-### 📌 Cadastro (cliente e profissional)
-
-![image](https://github.com/user-attachments/assets/7ac1333c-2be7-4fbd-a749-464f28f8b1c4)
-
-### 📌 Login
-
-![image](https://github.com/user-attachments/assets/43365756-0c10-4568-9f82-c28f739e2391)
-
-### 📌 Cadastro do tipo de serviço
-
-![image](https://github.com/user-attachments/assets/7bc49893-d824-4738-9091-f4f057f5a105)
-
-### 📌 Envio de mensagem (chat)
-
-![image](https://github.com/user-attachments/assets/c520f380-725e-4f1d-b638-56bd9a92d18e)
-
-### 📌 Seleção de anúncio
-
-![image](https://github.com/user-attachments/assets/b8ac9467-e4a3-4a8e-9ab5-c88f564cae5f)
-
-### 📌 Criação de anúncio
-
-![image](https://github.com/user-attachments/assets/6d436d4d-3c6b-438d-b750-9db29320c2d9)
-
-### 📌 Upload de imagem de perfil
-
-![image](https://github.com/user-attachments/assets/1678c3c3-01a9-400f-8833-4ca31654beab)
-
-### 📌 Upload de portfólio
-
-![image](https://github.com/user-attachments/assets/f3fbc03d-ef50-4ac3-b333-e3760a8c136a)
+- Cadastro: ![image](https://github.com/user-attachments/assets/7ac1333c-2be7-4fbd-a749-464f28f8b1c4)
+- Login: ![image](https://github.com/user-attachments/assets/43365756-0c10-4568-9f82-c28f739e2391)
+- Tipos de serviço: ![image](https://github.com/user-attachments/assets/7bc49893-d824-4738-9091-f4f057f5a105)
+- Chat: ![image](https://github.com/user-attachments/assets/c520f380-725e-4f1d-b638-56bd9a92d18e)
+- Anúncio e seleção: ![image](https://github.com/user-attachments/assets/b8ac9467-e4a3-4a8e-9ab5-c88f564cae5f)
+- Imagens: ![image](https://github.com/user-attachments/assets/1678c3c3-01a9-400f-8833-4ca31654beab)
 
 ---
 
-## 📋 Logs do Terminal – GET
+## 💾 Exemplos de Persistência (MongoDB)
 
-Essas buscas foram feitas por `id`, otimizando a performance.
-
-### 🔎 Busca de cliente e profissional
-
-![image](https://github.com/user-attachments/assets/0d66b333-56dd-4de6-a5f1-2ce60952032c)
-
-### 🔎 Conversas
-
-![image](https://github.com/user-attachments/assets/9e200b08-4fb8-406a-aef1-d9517c81d733)
-
-### 🔎 Tipo de serviço
-
-![image](https://github.com/user-attachments/assets/b8ae5886-bba2-4da7-ba55-546f561a82c3)
-
-### 🔎 Tipo de anúncio
-
-![image](https://github.com/user-attachments/assets/9e0ce2e2-2bba-40f8-95a0-fa3f22de5c92)
-
-### 🔎 Detalhes do anúncio
-
-![image](https://github.com/user-attachments/assets/ff623d9f-cbb6-48dd-877b-1b845d1b6dfe)
-
-### 🔎 Endereço
-
-![image](https://github.com/user-attachments/assets/8d21f340-7053-4868-9741-a0983ddd4f00)
-
-### 🔎 Portfólio
-
-![image](https://github.com/user-attachments/assets/172d4004-839a-4fb1-841f-1a32370e3ae4)
-
-### 🔎 Imagem de perfil
-
-![image](https://github.com/user-attachments/assets/a8de555b-f601-4c51-ba1f-3a175be395cc)
+- Cliente: ![image](https://github.com/user-attachments/assets/7fda91fa-0b5d-413e-a4a0-d15c47eef891)
+- Profissional: ![image](https://github.com/user-attachments/assets/4749cd82-b8ef-44b8-ac53-c468d89ecb0c)
+- Imagens: ![image](https://github.com/user-attachments/assets/25b28f09-f066-4637-88cc-03b96eaa79d0)
+- Show Collections: ![image](https://github.com/user-attachments/assets/15f538e4-3be3-406f-8b24-e3b0c82ad511)
 
 ---
 
@@ -231,5 +168,15 @@ Essas buscas foram feitas por `id`, otimizando a performance.
 - ✅ Estrutura pensada para escalar horizontalmente
 
 ---
+
+## 🧭 Fluxos Visuais
+
+### Fluxograma do Cliente
+
+![image](https://github.com/user-attachments/assets/bcb6a83c-c4e5-4fb0-9de9-8b19871366c8)
+
+### Fluxograma do Profissional
+
+![image](https://github.com/user-attachments/assets/c9cda911-4f38-442b-8c18-0dc3915cb4b5)
 
 ---
