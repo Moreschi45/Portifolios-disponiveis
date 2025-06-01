@@ -1,14 +1,13 @@
-# Portifólios-disponíveis
-Aqui vou falar um pouco dos meus projetos, projetos abertos, fechados vou falar mais a parte da sua lógica, mas fique a vontade para conferir.
+# 📦 Projeto - Sistema de Etiquetas
 
-# Projetos-Fechados
-# Projeto-etiqueta:<br>
-Recentemente, estive trabalhando com Java e, nesse projeto, busquei entender o framework Quarkus, com o qual nunca havia trabalhado antes. O mais importante é que precisei aprender o Quarkus em menos de duas semanas para conseguir atender ao prazo do cliente.
-Isso é excelente, pois mostra a minha capacidade de aprender rapidamente e me adaptar às necessidades do projeto..<br>
-  .<br>Aprender nunca é demais.<br>
+Recentemente trabalhei em um projeto com **Java** e, pela primeira vez, utilizei o framework **Quarkus**. O maior desafio foi aprender Quarkus em menos de **duas semanas** para entregar dentro do prazo — e consegui. Isso demonstra minha **capacidade de adaptação rápida** e **aprendizado acelerado**, mesmo sob pressão.
+
 ![Captura de tela 2025-02-26 175645](https://github.com/user-attachments/assets/23c78774-5bea-4a75-9aad-49b9f4aae79c)
-  .<br>Estive trabalhando nessa etiqueta.<br>
-Foi um processo que me proporcionou adquirir novas capacidades e ideias, além de trazer melhorias. 
-Trabalhar com Java não é fácil, pois exige uma compreensão sólida da lógica por trás da construção do código. 
-Isso é algo que se constrói com o tempo, mas acredito que estou muito preparado para qualquer desafio. 
-<br><br>
+
+Este projeto envolveu a **geração de etiquetas dinâmicas**, integração com **serviços externos**, manipulação de dados e lógica estruturada.  
+Além de entregar uma solução funcional, pude evoluir bastante como desenvolvedor.
+
+Trabalhar com Java exige uma lógica sólida — e esse projeto reforçou ainda mais meu domínio da linguagem.  
+Aprender, se adaptar e entregar: esse é meu ritmo.
+
+---
