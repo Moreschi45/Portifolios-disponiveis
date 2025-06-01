@@ -31,7 +31,7 @@ Este projeto foi desenvolvido com uma **estrutura modularizada por domínio**, o
 
 Este projeto foi desenvolvido com foco em performance e escalabilidade, utilizando as seguintes tecnologias:
 
-- ⚙️ **Java 17** – Linguagem principal do backend
+- ⚙️ **Java 21** – Linguagem principal do backend
 - ⚡ **Quarkus** – Framework leve e reativo, ideal para microsserviços
 - 🍃 **MongoDB** – Banco de dados NoSQL com uso de `ObjectId`
 - 🐳 **Docker** – Contêinerização e portabilidade do ambiente
