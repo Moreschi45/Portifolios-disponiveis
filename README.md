@@ -30,16 +30,17 @@ Este projeto foi desenvolvido com uma **estrutura modularizada por domínio**, o
 ## 🔍 Conferir
 
 - [Funcionalidades Principais](#-funcionalidades-principais)
-- [Requisições POST – Pasta `/auth`](#️-requisições-post--pasta-auth)
-- [Requisições POST – Pasta `/service`](#️-requisições-post--pasta-service-1)
-- [Requisições POST – Pasta `/image`](#️-requisições-post--pasta-image-1)
-- [Requisições GET – Pasta `/service`](#️-requisições-get--pasta-service)
-- [Requisições GET – Pasta `/image`](#️-requisições-get--pasta-image)
-- [Logs do Terminal – POST & GET](#️-logs-do-terminal--post--get)
-- [Exemplos de Persistência (MongoDB)](#️-exemplos-de-persistência-mongodb)
-- [Estrutura do Backend](#️-estrutura-do-backend)
-- [Arquitetura e Performance](#️-arquitetura-e-performance)
-- [Fluxos Visuais](#️-fluxos-visuais)
+- [Requisições POST – Pasta `/auth`](#-requisições-post--pasta-auth)
+- [Requisições POST – Pasta `/service`](#-requisições-post--pasta-service)
+- [Requisições POST – Pasta `/image`](#-requisições-post--pasta-image)
+- [Requisições GET – Pasta `/service`](#-requisições-get--pasta-service)
+- [Requisições GET – Pasta `/image`](#-requisições-get--pasta-image)
+- [Logs do Terminal – POST & GET](#-logs-do-terminal--post--get)
+- [Exemplos de Persistência (MongoDB)](#-exemplos-de-persistência-mongodb)
+- [Estrutura do Backend](#-estrutura-do-backend)
+- [Arquitetura e Performance](#-arquitetura-e-performance)
+- [Fluxos Visuais](#-fluxos-visuais)
+
 
 ---
 
