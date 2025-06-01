@@ -1,5 +1,8 @@
 # 🚀 Projeto Backend – Plataforma de Serviços
 
+## Desenvolvido por Luiz Fellipe Moreschi de Lima
+## Sistema backend desenvolvido em 2 meses
+
 Sistema backend construído em **Java + Quarkus**, com foco em **alta escalabilidade**, **segurança JWT** e **integração eficiente com MongoDB**.
 
 Ideal para plataformas de prestação de serviços, como **99freelas**, **Workana**, **GetNinjas**, entre outras.
@@ -278,6 +281,22 @@ Lógica de negócio e regras da aplicação são tratadas aqui, de forma reutili
 
 ---
 
+## 🧪 Testes e Segurança
+
+- Todas as requisições foram validadas manualmente com retorno 200 OK.
+- Regras de autenticação com JWT testadas via Postman.
+- Uploads e rotas protegidas contra acesso externo não autorizado.
+
+---
+
+## 📌 Observações Finais
+
+- Este repositório faz parte do meu portfólio pessoal.  
+- Algumas features foram adaptadas para fins demonstrativos.
+- Caso tenha interesse no código completo ou deseje colaborar, entre em contato comigo.
+
+---
+
 ## 🧭 Fluxos Visuais
 
 ### Fluxograma do Cliente
@@ -287,3 +306,10 @@ Lógica de negócio e regras da aplicação são tratadas aqui, de forma reutili
 ### Fluxograma do Profissional
 
 ![image](https://github.com/user-attachments/assets/c9cda911-4f38-442b-8c18-0dc3915cb4b5)
+
+---
+
+> 💡 Este projeto segue boas práticas de desenvolvimento:
+> - Uso de **DTOs**, evitando exposição direta de entidades.
+> - Separação de responsabilidades entre **camadas** (`service`, `controller`, `util`, etc).
+> - Organização por **domínio**, permitindo fácil expansão.
