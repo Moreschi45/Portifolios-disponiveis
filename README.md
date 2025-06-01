@@ -160,34 +160,41 @@ Esses dados representam logs reais do backend, com foco em lógicas de validaç�
 ---
 ## 🧠 Estrutura do Backend
 
-Este backend foi desenvolvido em Java + Quarkus com foco em **modularidade, clareza de responsabilidade e escalabilidade**. Abaixo está a divisão de pastas e funções principais:
+Este backend foi desenvolvido em **Java + Quarkus**, com foco em **modularidade**, **clareza de responsabilidades** e **possibilidade de escalar para diferentes nichos de serviço**. Abaixo, a descrição dos principais diretórios:
 
 ---
 
 ### 📦 `api/`
-Responsável pela integração com o gateway de pagamento PagSeguro.
+Responsável pela integração com o gateway de pagamento **PagSeguro**.
 
 ![image](https://github.com/user-attachments/assets/07dfdd05-0331-475b-b1f9-b0fc315e45ad)
 
 ---
 
 ### 🔐 `auth/`
-Contém os endpoints de autenticação: login e registro de clientes e profissionais.
+Endpoints para **login** e **registro** de clientes e profissionais, organizados por tipo de usuário.
 
 ![image](https://github.com/user-attachments/assets/c986be34-7979-44e3-80e9-93e53f4d5e1b)
 
 ---
 
 ### ⚙️ `conf/`
-Gerencia configurações de CORS e logs do sistema, úteis principalmente durante testes e ambientes de desenvolvimento.
+Configurações de **CORS** e **logs**, voltadas principalmente para testes e depuração em ambiente de desenvolvimento.
 
 ![image](https://github.com/user-attachments/assets/8e2301db-2846-40c5-80ce-9bc8f7e1f294)
 
 ---
 
 ### 🗃️ `data/`
-Repositórios de persistência organizados por domínio de serviço (agricultura, moda, saúde, etc).  
-Essa separação permite escalar para diversos nichos sem quebrar a estrutura.
+Repositórios separados por **categoria de serviço**, permitindo escalabilidade modular para áreas como:
+- Agricultura
+- Moda
+- Saúde
+- Construção
+- Consultoria
+- Entre outros…
+
+Essa estrutura facilita o crescimento do projeto em diferentes nichos.
 
 ![image](https://github.com/user-attachments/assets/8b96a39f-ba9a-4072-839f-43218ad23c35)
 ![image](https://github.com/user-attachments/assets/7de35a87-3552-4915-9511-6cfc8eda640e)
@@ -195,17 +202,62 @@ Essa separação permite escalar para diversos nichos sem quebrar a estrutura.
 
 ---
 
-### 🔄 `dto/`
-Define os objetos de transferência de dados, permitindo que as requisições e respostas sejam tratadas corretamente em JSON.  
-Essas estruturas também foram usadas nos testes unitários que retornaram `200 OK`.
+### 📤 `dto/`
+Objetos de transferência de dados, utilizados para enviar e receber **JSON estruturado** nas requisições.  
+Todos os testes unitários realizados retornaram `200 OK`.
 
 ![image](https://github.com/user-attachments/assets/01d30c41-5a1a-4678-ad04-3dd78c1ad795)
 ![image](https://github.com/user-attachments/assets/fcc92a13-8ac4-437b-a2d6-755d5f34b0ed)
 
 ---
 
+### 🧱 `entity/`
+Define os objetos de persistência, refletindo as estruturas que são armazenadas no banco de dados.
 
+![image](https://github.com/user-attachments/assets/a8d50352-0f27-4d13-8ec5-1fd482671600)
+![image](https://github.com/user-attachments/assets/5be59773-f2ae-4789-bed0-cde1617c537c)
 
+---
+
+### 🖼️ `image/`
+Contém as lógicas para **upload**, **armazenamento** e **visualização** de imagens (perfil e portfólio).
+
+![image](https://github.com/user-attachments/assets/05751e77-3b5a-487c-a447-e68beea91b78)
+
+---
+
+### 🔍 `query/`
+Camada dedicada a **buscas no banco de dados**, com foco em filtragem e otimização por domínio.
+
+![image](https://github.com/user-attachments/assets/2b645a9e-513e-4460-848f-725679451529)
+
+---
+
+### 🧪 `service/`
+Recebe as lógicas centrais da aplicação.  
+Não utilizei `controller` separado neste projeto por ser pequeno, mas já organizado para futura refatoração se necessário.
+
+![image](https://github.com/user-attachments/assets/da08f6e2-8ce3-4287-aea2-c5703077b2d7)
+![image](https://github.com/user-attachments/assets/52bc9b78-ae60-444f-b4ea-166a4df02744)
+![image](https://github.com/user-attachments/assets/673b16c0-ef8e-4aed-a3d8-74ee66775ef9)
+
+---
+
+### 🛠️ `util/`
+Lógica de negócio e regras da aplicação são tratadas aqui, de forma reutilizável e centralizada.
+
+![image](https://github.com/user-attachments/assets/9a286526-9984-41ec-98fe-1834aa8e9b25)
+![image](https://github.com/user-attachments/assets/cf8dec62-a947-4a84-bb63-83434d705b82)
+![image](https://github.com/user-attachments/assets/78e8dc06-ba33-4229-91d6-9c2f2f7aaec7)
+![image](https://github.com/user-attachments/assets/6fd0980d-160f-43de-92a4-a7ee40708e42)
+
+---
+
+> ⚠️ **Observação:**  
+> O projeto ainda está em fase de refino. Algumas estruturas serão ajustadas em subpastas para maior organização.  
+> Mesmo assim, já está funcional, com rotas testadas, autenticação segura e pronta para ser integrada a front-ends diversos.
+
+---
 
 ## ⚙️ Arquitetura e Performance
 
