@@ -27,6 +27,21 @@ Este projeto foi desenvolvido com uma **estrutura modularizada por domínio**, o
 
 ---
 
+## 🧰 Tecnologias Utilizadas
+
+Este projeto foi desenvolvido com foco em performance e escalabilidade, utilizando as seguintes tecnologias:
+
+- ⚙️ **Java 17** – Linguagem principal do backend
+- ⚡ **Quarkus** – Framework leve e reativo, ideal para microsserviços
+- 🍃 **MongoDB** – Banco de dados NoSQL com uso de `ObjectId`
+- 🐳 **Docker** – Contêinerização e portabilidade do ambiente
+- 🔐 **JWT (JSON Web Token)** – Autenticação segura
+- 🌐 **REST API** – Comunicação estruturada entre frontend e backend
+
+> ✅ Pensado para integração com qualquer frontend moderno como React, React Native ou Expo.
+
+---
+
 ## 🔍 Conferir
 
 - [Funcionalidades Principais](#-funcionalidades-principais)
