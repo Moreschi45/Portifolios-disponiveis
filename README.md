@@ -30,11 +30,8 @@ Este projeto foi desenvolvido com uma **estrutura modularizada por domínio**, o
 ## 🔍 Conferir
 
 - [Funcionalidades Principais](#-funcionalidades-principais)
-- [Requisições POST – Pasta `/auth`](#-requisições-post--pasta-auth)
-- [Requisições POST – Pasta `/service`](#-requisições-post--pasta-service)
-- [Requisições POST – Pasta `/image`](#-requisições-post--pasta-image)
-- [Requisições GET – Pasta `/service`](#-requisições-get--pasta-service)
-- [Requisições GET – Pasta `/image`](#-requisições-get--pasta-image)
+- [Requisições POST](#-requisições-post--pasta-auth)
+- [Requisições GET](#-requisições-get--pasta-service)
 - [Logs do Terminal – POST & GET](#-logs-do-terminal--post--get)
 - [Exemplos de Persistência (MongoDB)](#-exemplos-de-persistência-mongodb)
 - [Estrutura do Backend](#-estrutura-do-backend)
