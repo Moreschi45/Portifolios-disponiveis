@@ -14,18 +14,28 @@ Isso é algo que se constrói com o tempo, mas acredito que estou muito preparad
 <br><br>
 # 🚀 Projeto Backend – Plataforma de Serviços
 
-Este projeto foi desenvolvido com **Java + Quarkus**, oferecendo uma estrutura robusta e escalável para plataformas de prestação de serviços, como **99freelas**, **Workana**, **GetNinjas** e similares.
+Sistema backend construído em **Java + Quarkus**, com foco em **alta escalabilidade**, **segurança JWT** e **integração eficiente com MongoDB**.
+
+Ideal para plataformas de prestação de serviços, como **99freelas**, **Workana**, **GetNinjas**, entre outras.
+
+Este projeto foi desenvolvido com uma **estrutura modularizada por domínio**, otimizando:
+- ✅ a manutenção
+- ✅ os testes
+- ✅ e o crescimento por nichos (**agricultura**, **saúde**, **construção**, etc)
+
+🔧 **Pronto para integrar com qualquer frontend moderno** (React, React Native, Expo, etc).
 
 ---
 
-## 🔍 Índice
+## 🔍 Conferiri
 - [Funcionalidades](#-funcionalidades-principais)
 - [Rotas de Autenticação](#-requisições-post--pasta-auth)
-- [Upload de Imagens](#-requisições-post--pasta-image)
+- [Rotas do service](#-requisições-post--pasta-service)
+- [Rotas image](#-requisições-post--Pasta-image)
 - [GETs com Hierarquia e Filtros](#-requisições-get--pasta-service)
 - [Persistência no MongoDB](#-exemplos-de-persistência-mongodb)
 - [Arquitetura do Projeto](#-estrutura-do-backend)
-- [Performance](#️-arquitetura-e-performance)
+- [Performance](#-arquitetura-e-performance)
 - [Fluxograma da Lógica](#-fluxos-visuais)
 
 ---
