@@ -18,6 +18,18 @@ Este projeto foi desenvolvido com **Java + Quarkus**, oferecendo uma estrutura r
 
 ---
 
+## 🔍 Índice
+- [Funcionalidades](#-funcionalidades-principais)
+- [Rotas de Autenticação](#-requisições-post--pasta-auth)
+- [Upload de Imagens](#-requisições-post--pasta-image)
+- [GETs com Hierarquia e Filtros](#-requisições-get--pasta-service)
+- [Persistência no MongoDB](#-exemplos-de-persistência-mongodb)
+- [Arquitetura do Projeto](#-estrutura-do-backend)
+- [Performance](#️-arquitetura-e-performance)
+- [Fluxograma da Lógica](#-fluxos-visuais)
+
+---
+
 ## ✅ Funcionalidades Principais
 
 - Cadastro e login de **clientes** e **profissionais**
