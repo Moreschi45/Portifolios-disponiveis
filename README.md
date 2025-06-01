@@ -158,41 +158,51 @@ Esses dados representam logs reais do backend, com foco em lógicas de validaç�
 - Show Collections: ![image](https://github.com/user-attachments/assets/15f538e4-3be3-406f-8b24-e3b0c82ad511)
 
 ---
-## Estrutura do backend
+## 🧠 Estrutura do Backend
 
-### Pasta API
-Essa pasta toma conta da requisição da API com pagseguro, para implementar o gateway
+Este backend foi desenvolvido em Java + Quarkus com foco em **modularidade, clareza de responsabilidade e escalabilidade**. Abaixo está a divisão de pastas e funções principais:
+
+---
+
+### 📦 `api/`
+Responsável pela integração com o gateway de pagamento PagSeguro.
+
 ![image](https://github.com/user-attachments/assets/07dfdd05-0331-475b-b1f9-b0fc315e45ad)
 
-### Pasta Auth
-Essa pasta fica os arquivos que fazer requisições POST para o servidor Quarkus, para login e Registro
+---
+
+### 🔐 `auth/`
+Contém os endpoints de autenticação: login e registro de clientes e profissionais.
+
 ![image](https://github.com/user-attachments/assets/c986be34-7979-44e3-80e9-93e53f4d5e1b)
 
-### Pasta Config
-Essa pasta fica por conta das Logs e Cors para testes únitarios
+---
+
+### ⚙️ `conf/`
+Gerencia configurações de CORS e logs do sistema, úteis principalmente durante testes e ambientes de desenvolvimento.
+
 ![image](https://github.com/user-attachments/assets/8e2301db-2846-40c5-80ce-9bc8f7e1f294)
 
-## Pasta Data
-Essa pasta fica responsável pela lógica de persistência
+---
+
+### 🗃️ `data/`
+Repositórios de persistência organizados por domínio de serviço (agricultura, moda, saúde, etc).  
+Essa separação permite escalar para diversos nichos sem quebrar a estrutura.
+
 ![image](https://github.com/user-attachments/assets/8b96a39f-ba9a-4072-839f-43218ad23c35)
-
---
-
 ![image](https://github.com/user-attachments/assets/7de35a87-3552-4915-9511-6cfc8eda640e)
-
---
-
 ![image](https://github.com/user-attachments/assets/32e02e30-b518-4f6d-b667-7fbc800e4799)
 
-## Pasta DTO
-Responsável pela conversão dos dados para JSON, sendo assim nos testes únitarios voltando 200 ok
+---
+
+### 🔄 `dto/`
+Define os objetos de transferência de dados, permitindo que as requisições e respostas sejam tratadas corretamente em JSON.  
+Essas estruturas também foram usadas nos testes unitários que retornaram `200 OK`.
+
 ![image](https://github.com/user-attachments/assets/01d30c41-5a1a-4678-ad04-3dd78c1ad795)
-
---
-
 ![image](https://github.com/user-attachments/assets/fcc92a13-8ac4-437b-a2d6-755d5f34b0ed)
 
---
+---
 
 
 
