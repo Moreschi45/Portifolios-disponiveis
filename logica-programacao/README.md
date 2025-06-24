@@ -109,9 +109,3 @@ int main(){
     }while(s == 's');
 }
 ```
-
----
-
-# Mapa para entender o contexto:
-
-![Mapa Mental](./mapa.png)
