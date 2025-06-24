@@ -34,4 +34,19 @@ Projeto desenvolvido sob demanda para geração de etiquetas com dados dinâmico
 
 ---
 
+### 📝 [Lógica de Programação](./logica-programacao/README.md)
+
+Este conteúdo foi criado pra registrar um pouco da minha evolução com lógica de programação
+uma das habilidades mais importantes que a gente pode desenvolver, e que às vezes acaba sendo esquecida no meio da correria por sintaxe e frameworks.
+
+Aqui, organizei os três pilares que fizeram diferença pra mim:
+
+- ✅ Lógica Sequencial  
+- ✅ Lógica Condicional  
+- 🔁 Lógica de Repetição
+
+📂 [Ver projeto](./logica-programacao/README.md)
+
+---
+
 > ⚙️ Em constante evolução. Novos projetos serão adicionados ao longo do tempo.
