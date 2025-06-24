@@ -114,4 +114,4 @@ int main(){
 
 # Mapa para entender o contexto:
 
-![alt text](<Mapa mental(1).png>)
+![Mapa Mental](./982723c2-8de3-442b-9411-c930fd604432.png)
