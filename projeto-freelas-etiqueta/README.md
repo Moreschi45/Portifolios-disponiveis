@@ -7,7 +7,7 @@ Recentemente trabalhei em um projeto com **Java** e, pela primeira vez, utilizei
 Este projeto envolveu a **geração de etiquetas dinâmicas**, integração com **serviços externos**, manipulação de dados e lógica estruturada.  
 Além de entregar uma solução funcional, pude evoluir bastante como desenvolvedor.
 
-Trabalhar com Java exige uma lógica sólida — e esse projeto reforçou ainda mais meu domínio da linguagem.  
+Trabalhar com Java exige uma lógica sólida e esse projeto reforçou ainda mais meu domínio da linguagem.  
 Aprender, se adaptar e entregar: esse é meu ritmo.
 
 ---
