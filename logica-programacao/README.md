@@ -84,10 +84,10 @@ Se você parar pra analisar, isso nada mais é do que um **percurso a ser corrid
 ## 💻 Exemplo prático em C:
 ### Lógica repetição pós-teste(do-while):
 
+```c
 #include <stdio.h>
 #include <stdlib.h>
 
-```c
 int main(){
     int i = 5;
     int y;
